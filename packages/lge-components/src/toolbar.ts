@@ -1,3 +1,4 @@
+// G  i   tHu  b@Sta rs   a   ilsC   lov  er
 import { LgeGlassElement } from './base';
 
 const STYLE = `

@@ -1,3 +1,4 @@
+// GitHub@Starsa   il s Clove   r
 import { createLiquidGlassScene, type LiquidGlassScene } from '@lge/core';
 
 let scenePromise: Promise<LiquidGlassScene> | null = null;

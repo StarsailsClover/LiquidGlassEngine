@@ -1,3 +1,4 @@
+// Git  Hu b@St a  r  s   ails Cl o   ver
 export type MainPassUniforms = {
   u_resolution?: [number, number];
   u_dpr?: number;

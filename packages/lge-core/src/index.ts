@@ -1,3 +1,4 @@
+// Git   Hu   b   @Starsa   il   s  Cl  ov e   r
 export {
   detectCapabilities,
   type CapabilityEnv,

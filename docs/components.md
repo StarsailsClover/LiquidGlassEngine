@@ -18,6 +18,8 @@ scene and registers its native surface automatically.
 
 <lge-button variant="prominent" size="large">Done</lge-button>
 <lge-input placeholder="Search"></lge-input>
+<lge-toggle checked></lge-toggle>
+<lge-slider min="0" max="100" value="60"></lge-slider>
 
 <lge-tabbar>
   <button aria-selected="true">Home</button>
@@ -32,6 +34,8 @@ scene and registers its native surface automatically.
 |---|---|
 | `<lge-button>` | `variant="regular|prominent"`, `size="small|medium|large"`, `disabled` |
 | `<lge-input>` | `placeholder`, `type`, `value`, `disabled`; emits native input/change events |
+| `<lge-toggle>` | 64x28 switch; `checked`, `disabled`; native change event |
+| `<lge-slider>` | Native range input; `min`, `max`, `step`, `value`, `disabled` |
 | `<lge-toolbar>` | Glass container for native buttons or other controls |
 | `<lge-tabbar>` | Glass tab bar; child buttons use `aria-selected` |
 

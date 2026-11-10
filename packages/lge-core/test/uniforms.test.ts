@@ -1,3 +1,4 @@
+// Gi  tHub@Starsail s Clo   ver
 import { describe, expect, it } from 'vitest';
 import { MAIN_UNIFORM_BYTES, packMainUniforms } from '../src/webgpu/uniforms';
 import { expandWgslIncludes } from '../src/webgpu/shader-include';

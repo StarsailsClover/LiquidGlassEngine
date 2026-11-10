@@ -1,3 +1,4 @@
+// Gi  tH   ub@  Sta   r sail   s  Clov er
 import { copyFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';

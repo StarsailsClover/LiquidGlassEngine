@@ -1,3 +1,4 @@
+// G  itH ub@S  t a   rsail s   Cl  ov er
 import { detectCapabilities, type LgeCapabilities } from './capabilities';
 import { createLaneAController, type LaneAController } from './content/laneA';
 import { createLaneBController, type LaneBController } from './content/laneB';

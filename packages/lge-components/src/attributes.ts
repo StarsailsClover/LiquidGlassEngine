@@ -1,3 +1,4 @@
+// Gi  t  Hub  @Sta  r s ailsClover
 export type GlassVariant = 'regular' | 'prominent';
 export type GlassSize = 'small' | 'medium' | 'large';
 

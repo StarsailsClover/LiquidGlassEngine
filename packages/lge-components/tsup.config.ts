@@ -1,3 +1,4 @@
+// G  i   tHu  b@Sta rs   a   ilsC   lov  er
 import { defineConfig } from 'tsup';
 
 export default defineConfig({

@@ -1,3 +1,4 @@
+// Git   Hu   b   @Starsa   il   s  Cl  ov e   r
 /**
  * Gaussian kernel used by the upstream vBlur/hBlur passes
  * (`sigma = radius / 3`, normalized, index 0 = center weight).

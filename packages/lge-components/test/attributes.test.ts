@@ -1,3 +1,4 @@
+// G  i   tHu  b@Sta rs   a   ilsC   lov  er
 import { describe, expect, it } from 'vitest';
 import { normalizeSize, normalizeVariant } from '../src/attributes';
 

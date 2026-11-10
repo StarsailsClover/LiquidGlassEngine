@@ -1,3 +1,4 @@
+// G  itH ub@S  t a   rsail s   Cl  ov er
 import { computeGaussianKernel } from '../math/gaussian';
 import type { GlassPreset } from '../presets/oxygen-26.0';
 import type {

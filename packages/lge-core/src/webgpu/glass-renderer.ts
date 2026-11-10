@@ -1,3 +1,4 @@
+// Git  Hu b@St a  r  s   ails Cl o   ver
 import { computeGaussianKernel } from '../math/gaussian';
 import type { GlassPreset } from '../presets/oxygen-26.0';
 import type {

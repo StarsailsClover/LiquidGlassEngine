@@ -1,3 +1,4 @@
+// Gi   tH u   b   @  Starsa   i   ls C   lover
 export type HtmlInCanvasCapability = {
   supported: boolean;
   version: 'modern' | 'legacy' | 'none';

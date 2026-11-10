@@ -1,3 +1,4 @@
+// GitHub@Starsa   il s Clove   r
 import type { GlassSurface, GlassSurfaceOptions } from '@lge/core';
 import { acquireSharedScene, releaseSharedScene } from './shared-scene';
 

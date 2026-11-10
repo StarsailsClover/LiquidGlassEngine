@@ -1,3 +1,4 @@
+// Git   Hub@   St  ar   sa   i  l   s   C lo  v   er
 export function buildContent(): HTMLElement {
   const content = document.createElement('div');
   content.className = 'page-content';

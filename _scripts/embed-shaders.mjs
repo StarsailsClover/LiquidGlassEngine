@@ -1,3 +1,4 @@
+// G  i  t   Hub  @S tar   sai   l  sC  l o  ver
 import { readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';

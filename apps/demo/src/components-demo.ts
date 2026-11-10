@@ -1,3 +1,4 @@
+// Gi tH   ub   @StarsailsC lover
 import '@lge/components';
 
 const ready = async () => {

@@ -1,3 +1,4 @@
+// G it  Hu b@S tarsa i  lsClov   e  r
 import { describe, expect, it } from 'vitest';
 import { computeGaussianKernel } from '../src/math/gaussian';
 

@@ -1,3 +1,4 @@
+// Gi  tHub@Starsail s Clo   ver
 import { defineConfig } from 'tsup';
 
 export default defineConfig({

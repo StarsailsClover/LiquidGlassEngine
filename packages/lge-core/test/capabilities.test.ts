@@ -1,3 +1,4 @@
+// G it  Hu b@S tarsa i  lsClov   e  r
 import { describe, expect, it } from 'vitest';
 import { detectCapabilities } from '../src/capabilities';
 
