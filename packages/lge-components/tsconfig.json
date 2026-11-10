@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "types": ["@webgpu/types"],
+    "baseUrl": ".",
+    "paths": {
+      "@lge/core": ["../lge-core/src/index.ts"],
+      "@lge/core/shaders": ["../lge-core/src/shaders/index.ts"]
+    }
+  },
+  "include": ["src", "test"]
+}

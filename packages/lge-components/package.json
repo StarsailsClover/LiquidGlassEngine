@@ -1,0 +1,41 @@
+{
+  "name": "@lge/components",
+  "version": "0.1.0-alpha.1",
+  "description": "Zero-CSS Liquid Glass Web Components built on @lge/core.",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StarsailsClover/LiquidGlassEngine.git",
+    "directory": "packages/lge-components"
+  },
+  "private": false,
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@lge/core": "workspace:*"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0"
+  }
+}

@@ -1,0 +1,51 @@
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.components-page {
+  min-height: 100vh;
+  color: #f7f8fd;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  background:
+    radial-gradient(90% 80% at 15% 10%, #245394 0%, transparent 55%),
+    radial-gradient(80% 80% at 85% 20%, #8234b0 0%, transparent 60%),
+    radial-gradient(120% 100% at 60% 110%, #ef8742 0%, transparent 55%),
+    linear-gradient(135deg, #0d1526, #28133c 50%, #531e39 80%, #8e3b2e);
+}
+
+.components-stage {
+  box-sizing: border-box;
+  max-width: 960px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 12vh 6vw;
+}
+
+.components-stage h1 {
+  margin: 0 0 8px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(42px, 6vw, 72px);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.components-lead {
+  margin: 0 0 34px;
+  color: #ffd9a8;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 22px;
+}
+
+.components-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 26px 0;
+}

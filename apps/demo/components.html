@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LGE Components · Zero CSS</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="/src/components-demo.css" />
+  </head>
+  <body class="components-page">
+    <main class="components-stage">
+      <h1>Liquid Glass Components</h1>
+      <p class="components-lead">原生控件，零 CSS，直接获得高标准 Liquid Glass 材质。</p>
+
+      <lge-toolbar>
+        <button>Back</button>
+        <button>Share</button>
+        <button>Favorite</button>
+      </lge-toolbar>
+
+      <div class="components-row">
+        <lge-button>Cancel</lge-button>
+        <lge-button variant="prominent" size="large">Done</lge-button>
+        <lge-button size="small">More</lge-button>
+      </div>
+
+      <lge-input placeholder="Search native input"></lge-input>
+
+      <lge-tabbar>
+        <button aria-selected="true">Home</button>
+        <button>Library</button>
+        <button>Profile</button>
+      </lge-tabbar>
+    </main>
+    <script type="module" src="/src/components-demo.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+*.log
+.refers/
+.devres/
+.backups/
+.env
+.env.*
+releases/*
+!releases/.gitkeep
+apps/demo/evidence/diff-*.png

@@ -1,0 +1,52 @@
+{
+  "name": "@lge/core",
+  "version": "0.1.0-alpha.1",
+  "description": "Core renderer, content lanes, capability detection and zero-CSS scene API for LiquidGlassEngine.",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StarsailsClover/LiquidGlassEngine.git",
+    "directory": "packages/lge-core"
+  },
+  "sideEffects": false,
+  "keywords": [
+    "liquid-glass",
+    "webgpu",
+    "webgl2",
+    "dom",
+    "ui",
+    "standard-library"
+  ],
+  "private": false,
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./shaders": {
+      "types": "./dist/shaders.d.ts",
+      "import": "./dist/shaders.js"
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "build": "node ../../_scripts/embed-shaders.mjs && tsup",
+    "prepack": "node ../../_scripts/embed-shaders.mjs"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0"
+  }
+}
